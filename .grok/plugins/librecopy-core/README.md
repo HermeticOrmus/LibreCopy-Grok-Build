@@ -1,5 +1,7 @@
 # librecopy-core (Grok plugin stub)
 
-Bundles core librecopy skills for install-from-path.
+Bundles core LibreCopy skills for install-from-path.
 
-v0: skills live primarily under repo `skills/` — copy or symlink into this plugin's `skills/` when packaging.
+Canonical bodies live under repo `skills/`. Dogfood copies: `.grok/skills/`. Keep them identical.
+
+Melted in this pack: `docs-critique`, `api-docs`, `style-guide`. The other six skills and `copy-orchestrator` remain stubs. Honest table: [docs/DEPTH_MATRIX.md](../../../docs/DEPTH_MATRIX.md).
