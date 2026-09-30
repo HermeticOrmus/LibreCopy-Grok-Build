@@ -7,7 +7,7 @@
 
 ## How to use this suite
 
-1. Install skills (see [QUICK_START.md](./QUICK_START.md)).
+1. Install the `libre-copy-grok` plugin, plus the pack plugins you need, from this repo's marketplace (see [QUICK_START.md](./QUICK_START.md)).
 2. Keep Reality OS as the global doctrine layer.
 3. Use suite skills for Copy; use `AGENTS/copy-orchestrator.md` when a full docs pass is needed.
 
@@ -23,7 +23,7 @@ Project-level `AGENTS.md` in a consumer repo wins for project rules; this file i
 
 Recognize gold in LibreCopy-Claude-Code → strip Claude residue → integrate with Grok skills / `.grok/` / MCP → dogfood.
 
-Melted in this pack: `docs-critique`, `api-docs`, `style-guide`. The other six skills and this orchestrator remain stubs. Honest counts: [docs/DEPTH_MATRIX.md](./docs/DEPTH_MATRIX.md).
+Melted in this pack: `docs-critique`, `api-docs`, `style-guide`, shipped as the `libre-copy-grok` plugin. The other six skills remain stubs in [stubs/](./stubs/), each naming the pack plugin with the real depth, and this orchestrator remains a stub that nothing installs. Honest counts: [docs/DEPTH_MATRIX.md](./docs/DEPTH_MATRIX.md).
 
 ## Suite
 

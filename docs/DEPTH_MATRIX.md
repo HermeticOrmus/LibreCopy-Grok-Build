@@ -24,7 +24,15 @@ Never copy Claude plugin / agent / command totals into this inventory. Upstream 
 
 This repo now: **3 melted skills**, **6 stub skills**, **1 stub agent**.
 
-Dogfood copies of every skill live at `.grok/skills/<id>/SKILL.md` and must match `skills/<id>/SKILL.md`.
+Where they live: melted skills in `plugins/libre-copy-grok/skills/<id>/SKILL.md` (the plugin installs them); stubs in `stubs/<id>/SKILL.md` (nothing installs them); the agent in `AGENTS/copy-orchestrator.md`.
+
+Dogfood copies of every skill live at `.grok/skills/<id>/SKILL.md` and must match the canonical file above. CI checks it.
+
+## Pack entries (installed, not melted)
+
+The marketplace also lists every plugin of [LibreCopy-Claude-Code](https://github.com/HermeticOrmus/LibreCopy-Claude-Code) as a remote entry: **21 entries**, all pinned to one pack commit (the `sha` in `.grok-plugin/marketplace.json`). Grok reads those plugin folders as they are. They are not counted in the melted inventory above. `scripts/pin-pack.sh` re-pins them; CI fails when the pack gains or loses a plugin.
+
+The `anti-slop` stub has no one-to-one pack plugin. Its nearest are `style-guides` and `documentation-testing`; the pack itself points slop sweeps at [markdown-discipline-skills](https://github.com/HermeticOrmus/markdown-discipline-skills), which is not in this marketplace.
 
 ## Suite
 
