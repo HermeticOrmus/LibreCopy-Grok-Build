@@ -1,0 +1,11 @@
+{
+  "name": "libre-copy-grok",
+  "version": "1.0.0",
+  "description": "Grok-native LibreCopy skills: docs-critique, api-docs, and style-guide. Each names the reader job, walks measurable checks, gives a worked example, and ends in an output shape.",
+  "author": {
+    "name": "Diego Bodart",
+    "url": "https://github.com/HermeticOrmus"
+  },
+  "repository": "https://github.com/HermeticOrmus/LibreCopy-Grok-Build",
+  "license": "MIT"
+}
