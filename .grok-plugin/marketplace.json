@@ -1,0 +1,250 @@
+{
+  "name": "libre-copy-grok",
+  "owner": {
+    "name": "Diego Bodart",
+    "url": "https://github.com/HermeticOrmus"
+  },
+  "metadata": {
+    "description": "LibreCopy for Grok Build: the Grok-native libre-copy-grok plugin plus every LibreCopy-Claude-Code plugin, pinned to one commit of the pack.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "libre-copy-grok",
+      "description": "Grok-native LibreCopy skills: docs-critique, api-docs, and style-guide. Each names the reader job, walks measurable checks, gives a worked example, and ends in an output shape.",
+      "version": "1.0.0",
+      "source": "./plugins/libre-copy-grok"
+    },
+    {
+      "name": "api-documentation",
+      "description": "API documentation: docs-site architecture, OpenAPI reference generation and linting, operation-level writing, error catalogs, and SDK guides.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/api-documentation"
+      }
+    },
+    {
+      "name": "architecture-docs",
+      "description": "Architecture documentation: Architecture Decision Records, C4 diagrams, arc42 sections, and data-flow narratives.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/architecture-docs"
+      }
+    },
+    {
+      "name": "changelog-management",
+      "description": "Changelogs: Keep a Changelog entries from git history, SemVer bumps, release cutover, automation tools, and user-facing release narratives.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/changelog-management"
+      }
+    },
+    {
+      "name": "cli-help-text",
+      "description": "CLI documentation: --help output, usage lines, options, subcommands, man pages, and exit codes by POSIX and GNU conventions.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/cli-help-text"
+      }
+    },
+    {
+      "name": "code-comments",
+      "description": "Code comments: inline comments that explain why, and documentation comments (JSDoc, TSDoc, docstrings, rustdoc, godoc) with coverage checks.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/code-comments"
+      }
+    },
+    {
+      "name": "content-strategy",
+      "description": "Documentation strategy: content audits, Diátaxis classification, information architecture, roadmaps, and docs metrics.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/content-strategy"
+      }
+    },
+    {
+      "name": "developer-guides",
+      "description": "Developer guides: getting started, CONTRIBUTING.md, environment setup, Diátaxis tutorials and how-tos, and integration docs.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/developer-guides"
+      }
+    },
+    {
+      "name": "documentation-testing",
+      "description": "Documentation testing: link checks, runnable code examples, Vale and markdownlint style checks, and freshness detection in CI.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/documentation-testing"
+      }
+    },
+    {
+      "name": "error-messages",
+      "description": "Error messages: three-part messages, RFC 7807 Problem Details, error code catalogs, and localization-ready strings.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/error-messages"
+      }
+    },
+    {
+      "name": "knowledge-bases",
+      "description": "Knowledge bases: taxonomy, article templates, search findability, lifecycle, and metrics across common platforms.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/knowledge-bases"
+      }
+    },
+    {
+      "name": "onboarding-docs",
+      "description": "Onboarding docs: quickstarts built for time to first success, prerequisites, expected output, and progressive disclosure.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/onboarding-docs"
+      }
+    },
+    {
+      "name": "proposal-writing",
+      "description": "Technical proposals: RFCs, design documents, and PRDs with problem-first structure, real alternatives, and success metrics.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/proposal-writing"
+      }
+    },
+    {
+      "name": "readme-engineering",
+      "description": "READMEs: structure by project type, the 5-second test, copy-paste quick starts, badges, and validation.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/readme-engineering"
+      }
+    },
+    {
+      "name": "release-notes",
+      "description": "Release notes: audience-segmented notes, breaking changes with migration snippets, migration guides, and channel formats.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/release-notes"
+      }
+    },
+    {
+      "name": "runbook-writing",
+      "description": "Runbooks: incident response procedures and SOPs that work at 3am, with exact commands, verification, and escalation.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/runbook-writing"
+      }
+    },
+    {
+      "name": "specification-writing",
+      "description": "Specifications: testable requirements, Gherkin acceptance criteria, interface contracts, and state machines.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/specification-writing"
+      }
+    },
+    {
+      "name": "style-guides",
+      "description": "Style guides: voice and tone, language and formatting rules, terminology glossaries, inclusive language, and Vale enforcement.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/style-guides"
+      }
+    },
+    {
+      "name": "technical-blogging",
+      "description": "Technical blogging: developer-focused posts, headlines, code examples, platform formats, and search optimization.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/technical-blogging"
+      }
+    },
+    {
+      "name": "tutorial-creation",
+      "description": "Tutorials: learning path design, atomic steps with expected output, checkpoints, and honest prerequisites.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/tutorial-creation"
+      }
+    },
+    {
+      "name": "user-documentation",
+      "description": "User documentation: task-oriented guides and help center articles for non-technical readers, troubleshooting, and FAQs.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/user-documentation"
+      }
+    },
+    {
+      "name": "libre-copy-hooks",
+      "description": "Optional LibreCopy hooks: a documentation tooling summary at session start, a confirmation prompt before Claude touches secrets files or runs commands that destroy docs or history, and post-edit checks for empty writes, doc linters, and matching tests.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HermeticOrmus/LibreCopy-Claude-Code.git",
+        "sha": "8ec68f353913bfd5cb087c621247a71f6448efe7",
+        "path": "plugins/libre-copy-hooks"
+      }
+    }
+  ]
+}
